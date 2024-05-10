@@ -1,0 +1,203 @@
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#669999",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+			,{
+		"path": "pages/xuesheng/list",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xuesheng/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xuesheng/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/jiaoshi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jiaoshi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jiaoshi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/sushexinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/sushexinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/sushexinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/xueshengjiaofei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xueshengjiaofei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xueshengjiaofei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/jiaoshijiaofei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jiaoshijiaofei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jiaoshijiaofei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white"
+		}
+	}
+					, {
+		"path": "pages/pay-confirm/pay-confirm",
+		"style": {
+			"navigationBarTitleText": "确认支付"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#339999",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园水电费管理小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#339999",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+						
+						
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
